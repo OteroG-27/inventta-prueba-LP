@@ -1,7 +1,180 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none
 }
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif
+}
+a {
+    color: white;
+    text-decoration: none
+}
+.sectionHomeAndHeader{
+    background-image: url('../assets/img/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.dflexContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.dgridContainer{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+section{
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100vh
+}
+header{
+    height: 25vh
+}
+.btn-Contacto{
+    width: 25%;
+    height: 25px;
+    background: #FF6E56;
+    border-radius: 20px;
+    color: white
+}
+.containerLogo{
+    width: 60%
+}
+.containerNav{
+    width: 40%;
+}
+.containerHome{
+    height: 50vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    color: white
+}
+.contItemHomeTitle{
+    font-size: 60px
+}
+.contItemHomeText{
+    font-size: 24px
+}
+.btns{
+    width: 210px;
+    height: 48px;
+    background: #FF6E56;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    
+}
+.titleOrange{
+    color: #FF6E56;
+}
+.crateValue{
+    color: #2A0050;
+    font-size: 45px;
+}
+.tableIzqAndDer{
+    height: 100%;
+    display: grid;
+    align-content: end;
+    text-align: start;
+    padding: 50px;
+    border-radius: 10px;
+}
+.tableValue{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.tableValueItems{
+    width: 40%;
+    height: 455px;
+    background-color: #4C008F;
+    color: white;
+    border-radius: 14px;
+}
+.tableIzq{
+    background-image: url('../assets/img/Rectangle.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+.tableIzqItem{
+    background: linear-gradient(180deg, rgba(255, 110, 86, 0) 20.99%, rgba(255, 110, 86, 0.9) 76.75%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+.tableDer{
+    background-image: url('../assets/img/Rectangledos.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+.tableDerItem{
+    background: linear-gradient(179.82deg, rgba(41, 0, 102, 0) 0.15%, rgba(26, 1, 62, 0.9) 70.3%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid #000000;    
+}
+.Containercheckverifies{
+    height: 60vh
+}
+.checkverifies{
+    height: 40vh;
+    display: flex;
+    justify-content: space-between
+}
+.checkverifiesTitle{
+    font-size: 38px;
+    color: #2A0050
+}
+.checkverifiesItemDer{
+    display: grid;
+    align-items: center
+}
+.checkverifiesItemDer p{
+    font-weight: bold;
+    font-size: 17px
+}
+.containerFingerprint{
+    background-image: url('../assets/img/huella.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: center
+}
+.containerwhatsapp{
+    display: flex;
+    justify-content: end
+}
+.whatsapp{
+    width: 70px;
+    height: 70px;
+    background-color: #29a71a;
+    border-radius: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.FingerprintTitleAndText{
+    text-align: -webkit-center
+}
+.FingerprintTitleAndText h2{
+    color: #2A0050;
+    font-size: 40px
+}
+.fingerprintDescripcions{
+    display: flex;
+    justify-content: space-between
+}
+.fingerprintDescripcionItems{
+    width: 30%
+}
+.fingerprintDescripcionIcon{
+    display: flex;
 }
