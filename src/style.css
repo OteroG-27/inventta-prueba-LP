@@ -14,7 +14,7 @@ a {
     font-size: 1.4vw
 }
 .sectionHomeAndHeader{
-    background-image: url('../assets/img/home.jpg');
+    background-image: url('./assets/img/home.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh
@@ -118,7 +118,7 @@ header{
     border-radius: 14px;
 }
 .tableIzq{
-    background-image: url('../assets/img/Rectangle.png');
+    background-image: url('./assets/img/Rectangle.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -129,7 +129,7 @@ header{
     border-radius: 10px;
 }
 .tableDer{
-    background-image: url('../assets/img/Rectangledos.png');
+    background-image: url('./assets/img/Rectangledos.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -157,7 +157,7 @@ header{
     font-size: 17px
 }
 .containerFingerprint{
-    background-image: url('../assets/img/huella.png');
+    background-image: url('./assets/img/huella.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
@@ -436,7 +436,8 @@ header{
         justify-items: center;
     }
     .containerResult {
-       margin: 100px 0 83px 0;rgin-top: 100px;
+       margin: 100px 0 83px 0;
+       margin-top: 100px;
     }
     .tableValueItems {
         width: 60%;
