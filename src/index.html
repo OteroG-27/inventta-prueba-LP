@@ -9,210 +9,280 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <div id="root">
-        <main>
-            <section class="sectionHomeAndHeader">
-                <header class="dflexContainer">
-                    <div class="containerLogo">
-                        <img src="../assets/img/Logo.png" alt="">
-                    </div>
-                    <nav class="containerNav">
-                        <a href="#">Home</a>
-                        <select>
-                            <option value="Servicios">Servicios</option>
-                        </select>
-                        <a href="#">Sobre Nosotros</a>
-                        <a href="#">Insightss</a>
-                        <button class="btn-Contacto">Contacto</button>
-                    </nav>
-                </header>
-                <div class="containerHome">
-                    <p class="contItemHomeTitle">
-                        ¿Cómo reinventar y crear nuevos negocios
-                         desde <b class="titleOrange">iniciativas de innovación?</b>
-                    </p>
-                    <hr style="width: 66px; border: 3px solid #40DB9D">
-                    <p class="contItemHomeText">
-                        Ampliamos los puntos de vista de directivos y equipos para detectar
-                        y desarrollar oportunidades de innovación bajo un proceso sistémico y práctico.
-                    </p>
-                    <button class="btns">Contáctanos</button>
+    <main>
+        <section class="sectionHomeAndHeader" id="home">
+            <header class="dflexContainer">
+                <div class="containerLogo">
+                    <img src="../assets/img/Logo.png" alt="logo">
                 </div>
-            </section>
-            <section class="section">
-                <div class="dgridContainer">
+                <nav class="containerNav">
+                    <a href="#home">Home</a>
+                    <select class="select">
+                        <a href="#servicios"><option value="Servicios" >Servicios</option></a>
+                    </select>
+                    <a href="#SobreNosotros">Sobre Nosotros</a>
+                    <a href="#Insights">Insightss</a>
+                    <button class="btn-Contacto">Contacto</button>
+                </nav>
+                <nav class="navHamburguesa">
+                    <label for="check">
+                        <img src="../assets/svg/menuHamburguesa.svg" width="50px" height="50px" alt="menuHamburguesa">
+                    </label>
+                </nav>
+            </header>
+            <div class="containerHome">
+                <p class="contItemHomeTitle">
+                    ¿Cómo reinventar y crear nuevos negocios
+                        desde <b class="titleOrange">iniciativas de innovación?</b>
+                </p>
+                <hr style="width: 66px; border: 3px solid #40DB9D">
+                <p class="contItemHomeText">
+                    Ampliamos los puntos de vista de directivos y equipos para detectar
+                    y desarrollar oportunidades de innovación bajo un proceso sistémico y práctico.
+                </p>
+                <button class="btns">Contáctanos</button>
+            </div>
+        </section>
+        <section class="containerCreateValue" data-aos="fade-up" id="servicios">
+            <div class="dgridContainer">
+                <hr style="width: 66px; border: 3px solid #FF6E56">
+                <h3 class="titleSection">Crea valor</h3>
+                <div class="tableValue">
+                    <div class="tableValueItems tableIzq" >
+                        <div class="tableIzqAndDer tableIzqItem">
+                            <h2>Validación de oportunidades</h2>
+                            <hr style="width: 66px; border: 2px solid #40DB9D; margin: 12px 0 15px 0">
+                            <p>
+                                Asegura que las temáticas de interés sean oportunidades
+                                reales para la organización, más allá de sus propios
+                                límites o retos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tableValueItems tableDer">
+                        <div class="tableIzqAndDer tableDerItem">
+                            <h2>Escenarios futuros</h2>
+                            <hr style="width: 66px; border: 2px solid #40DB9D; margin: 12px 0 15px 0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Containercheckverifies">
+            <div class="checkverifies">
+                <div class="checkverifiesTitleAndText" data-aos="fade-right">
                     <hr style="width: 66px; border: 3px solid #FF6E56">
-                    <h3 class="crateValue">Crea valor</h3>
-                    <div class="tableValue">
-                        <div class="tableValueItems tableIzq">
-                            <div class="tableIzqAndDer tableIzqItem">
-                                <h2>Validación de oportunidades</h2>
-                                <hr style="width: 66px; border: 2px solid #40DB9D; margin: 12px 0 15px 0">
-                                <p>
-                                    Asegura que las temáticas de interés sean oportunidades
-                                    reales para la organización, más allá de sus propios
-                                    límites o retos.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="tableValueItems tableDer">
-                            <div class="tableIzqAndDer tableDerItem">
-                                <h2>Escenarios futuros</h2>
-                                <hr style="width: 66px; border: 2px solid #40DB9D; margin: 12px 0 15px 0">
-                            </div>
-                        </div>
-                    </div>
+                    <h3 class="titleSection">Si te encuentras en esta situación:</h3>
                 </div>
-            </section>
-            <section class="Containercheckverifies">
-               <div class="checkverifies">
+                <div class="checkverifiesItemDer" data-aos="fade-left">
+                    <h3>Comprueba y/o  verifica</h3>
                     <div>
-                        <hr style="width: 66px; border: 3px solid #FF6E56">
-                        <h3 class="checkverifiesTitle">Si te encuentras en esta situación:</h3>
+                        <input type="checkbox">
+                        <label>
+                            No sé hacia dónde apostar los esfuerzos de innovación. A mayor riesgo, bajos 
+                            entornos controlados.
+                        </label>
                     </div>
-                    <div class="checkverifiesItemDer">
-                        <h3>Comprueba y/o  verifica</h3>
-                        <div>
-                            <input type="checkbox">
-                            <label>
-                                No sé hacia dónde apostar los esfuerzos de innovación. A mayor riesgo, bajos 
-                                entornos controlados.
-                            </label>
-                        </div>
-                        <div>
-                            <input type="checkbox">
-                            <label>
-                                Estoy perdiendo mercado y quiero diferenciarme de la competencia.
-                            </label>
-                        </div>
-                        <div>
-                            <input type="checkbox">
-                            <label>
-                                No sé cómo obtener el valor real de las tendencias globales.
-                            </label>
-                        </div>
-                        <p>¿Te sentiste identificado con alguno de los enunciados?</p>
-                        <button class="btns">Conversemos</button>
+                    <div>
+                        <input type="checkbox">
+                        <label>
+                            Estoy perdiendo mercado y quiero diferenciarme de la competencia.
+                        </label>
                     </div>
-               </div>
-            </section>
-            <section class="containerFingerprint">
-                <div class="containerwhatsapp">
-                    <div class="whatsapp">
-                        <img src="../assets/svg/whatsapp.svg" width="50px" height="50px" alt="whatsapp">
+                    <div>
+                        <input type="checkbox">
+                        <label>
+                            No sé cómo obtener el valor real de las tendencias globales.
+                        </label>
+                    </div>
+                    <p>¿Te sentiste identificado con alguno de los enunciados?</p>
+                    <button class="btns">Conversemos</button>
+                </div>
+            </div>
+        </section>
+        <section class="containerFingerprint" >
+            <div class="containerwhatsapp">
+                <div class="whatsapp">
+                    <img src="../assets/svg/whatsapp.svg" width="60%" height="60%" alt="whatsapp">
+                </div>
+            </div>
+            <div class="titleCenter">
+                <hr style="width: 66px; border: 3px solid #FF6E56">
+                <h3 class="titleSection">Hemos dejado huella</h3>
+                <p>Estas son las opiniones de algunos de nuestros clientes.</p>
+            </div>
+            <div class="fingerprintDescripcions">
+                <div class="width alingIcon">
+                    <p>
+                        “Me ayudaron a validar rápidamente temas que
+                        estaban sueltos para verdaderamente apostar por 
+                        inversiones que valen la pena para la empresa” - 
+                    </p>
+                    <div class="fingerprintDescripcionIcon">
+                        <img src="../assets/img/imagencaracol.png" width="37px" height="37px" alt="Logo de caracol">
+                        <div>
+                            <p>Caracol</p>
+                            <p>Validación de oportunidades</p>
+                        </div>
                     </div>
                 </div>
-                <div class="FingerprintTitleAndText">
+                <div class="width alingIcon">
+                    <p>
+                        “La lógica de horizontes es clave para entender hacia 
+                        dónde va la innovación y cómo tomar la decisiones de 
+                        si entrar o no”.
+                    </p>
+                    <div class="fingerprintDescripcionIcon">
+                        <img src="../assets/img/FDN.png" width="37px" height="37px" alt="Logo de caracol">
+                        <div>
+                            <p>FDN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="width">
+                    <p>
+                        “Es muy importante conocer el sector que se está 
+                        incursionando, y desde allí diseñar propuesta 
+                        creíbles que rompan con lo tradicional, tomar el 
+                        control de ese futuro y apostar por riesgo más 
+                        inteligentes”.
+                    </p>
+                    <div class="fingerprintDescripcionIcon">
+                        <img src="../assets/img/MSD.png" width="37px" height="37px" alt="Logo de caracol">
+                        <div>
+                            <p>MSD</p>
+                            <p>Innovación Comercial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="containerResult">
+            <div class="titleCenter">
+                <hr style="width: 66px; border: 3px solid #FF6E56">
+                <h3 class="titleSection">Resultados</h3>
+                <p>Las cifras reflejan el éxito que hemos alcanzado en cada proyecto.</p>
+            </div>
+            <div class="resultDescription">
+                <div class="width">
+                    <p class="resultNumber">+200</p>
+                    <p>
+                        Iniciativas viabilizadas de innovación 
+                        conectadas con el negocio.
+                    </p>
+                </div>
+                <div class="width">
+                    <p class="resultNumber">+100</p>
+                    <p>
+                        Formas de jugar en el mercado puestas en 
+                        marcha desde proyectos de innovación.
+                    </p>
+                </div>
+                <div class="width">
+                    <p class="resultNumber">+30</p>
+                    <p>
+                        Portafolios de proyectos y 
+                        oportunidades evaluados.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="partGroup"  data-aos="fade-down-right" id="SobreNosotros">
+            <div class="titleCenter">
+                <hr style="width: 66px; border: 3px solid #FF6E56">
+                <h3 class="titleSection">¿Quieres ser parte del grupo innovador?</h3>
+                <p>Píldoras de conocimiento accionable:</p>
+            </div>
+            <div class="tablePartGroup">
+                <div class="tablePartGroupIzqAndDer tablePartGroupIzq" data-aos="fade-right">
                     <hr style="width: 66px; border: 3px solid #FF6E56">
-                    <h2>Hemos dejado huella</h2>
-                    <p>Estas son las opiniones de algunos de nuestros clientes.</p>
+                    <p class="tablePartGroupTitle">Lorem Ipsum</p>
+                    <button class="btnMorado">Conoce más</button>
                 </div>
-                <div class="fingerprintDescripcions">
-                    <div class="fingerprintDescripcionItems">
-                        <p>
-                            “Me ayudaron a validar rápidamente temas que
-                            estaban sueltos para verdaderamente apostar por 
-                            inversiones que valen la pena para la empresa” - 
-                        </p>
-                        <div class="fingerprintDescripcionIcon">
-                            <img src="../assets/img/imagencaracol.png" width="37px" height="37px" alt="Logo de caracol">
-                            <div>
-                                <p>Caracol</p>
-                                <p>Validación de oportunidades</p>
-                            </div>
+                <div class="tablePartGroupIzqAndDer tablePartGroupDer" data-aos="fade-left">
+                    <hr style="width: 66px; border: 3px solid #FF6E56">
+                    <p class="tablePartGroupTitleWhite">Lorem Ipsum</p>
+                    <p class="tablePartGroupdDescription">
+                        Lorem Ipsum is simply dummy text
+                        of the printing and typesetting 
+                        industry.
+                    </p>
+                    <button class="btnBlanco">Conoce más</button>
+                </div>
+            </div>
+        </section>
+        <section class="receivesInformation">
+            <p>Recibe información actualizada de tu interés.</p>
+            <div>
+
+                <button class="btnBlanco">Suscríbete a nuestro Newsletter</button>
+            </div>
+        </section>
+    </main>
+    <footer class= "sectionFooter">
+        <div class="contFooter">
+            <div class="fContainerOne">
+                <img src="../assets/img/Logo.png" alt="logo de la página">
+                <div class="siguenos">
+                    <h4>Síguenos</h4>
+                    <div class="redesSociales">
+                        <div class="redesSocialesItems twiter">
+                            <img src="../assets/svg/twitter.svg"  width="50%" height="50%" alt="twitter">
                         </div>
-                    </div>
-                    <div class="fingerprintDescripcionItems">
-                        <p>
-                            “La lógica de horizontes es clave para entender hacia 
-                            dónde va la innovación y cómo tomar la decisiones de 
-                            si entrar o no”.
-                        </p>
-                        <div class="fingerprintDescripcionIcon">
-                            <img src="../assets/img/FDN.png" width="37px" height="37px" alt="Logo de caracol">
-                            <div>
-                                <p>FDN</p>
-                            </div>
+                        <div class="redesSocialesItems linkedin">
+                            <img src="../assets/svg/linkedin.svg"  width="50%" height="50%" alt="linkedin">
                         </div>
-                    </div>
-                    <div class="fingerprintDescripcionItems">
-                        <p>
-                            “Es muy importante conocer el sector que se está 
-                            incursionando, y desde allí diseñar propuesta 
-                            creíbles que rompan con lo tradicional, tomar el 
-                            control de ese futuro y apostar por riesgo más 
-                            inteligentes”.
-                        </p>
-                        <div class="fingerprintDescripcionIcon">
-                            <img src="../assets/img/MSD.png" width="37px" height="37px" alt="Logo de caracol">
-                            <div>
-                                <p>MSD</p>
-                                <p>Innovación Comercial</p>
-                            </div>
+                        <div class="redesSocialesItems whatsappF">
+                            <img src="../assets/svg/whatsapp.svg"  width="50%" height="50%" alt="whatsapp">
                         </div>
                     </div>
                 </div>
-            </section>
-            <section>
-                <div>
-                    <h3>Resultados</h3>
-                    <p>Las cifras reflejan el éxito que hemos alcanzado en cada proyecto.</p>
+                <div class="email">
+                    <img src="../assets/svg/email.svg" width="30px" height="30px" alt="email">
+                    <p>contacto@inventta.net</p>
                 </div>
-                <div>
-                    <div>
-                        <p>+200</p>
-                        <p>
-                            Iniciativas viabilizadas de innovación 
-                            conectadas con el negocio.
-                        </p>
-                    </div>
-                    <div>
-                        <p>+100</p>
-                        <p>
-                            Formas de jugar en el mercado puestas en 
-                            marcha desde proyectos de innovación.
-                        </p>
-                    </div>
-                    <div>
-                        <p>+30</p>
-                        <p>
-                            Portafolios de proyectos y 
-                            oportunidades evaluados.
-                        </p>
+            </div>
+            <div class="listaFooter">
+                <div class="fContainerTwo width">
+                    <h3>Inscríbete a nuestras comunidades:</h3>
+                    <hr style="width: 66px;border: 1px solid #40DB9D; margin: 10px 0 15px 0;">
+                    <div class="optionsF">
+                        <p>Pymes Colombia</p>
+                        <p>Solvers</p>
+                        <p>Insightts</p>
                     </div>
                 </div>
-            </section>
-            <section>
-                <div>
-                    <h3>¿Quieres ser parte del grupo innovador?</h3>
-                    <p>Píldoras de conocimiento accionable:</p>
-                </div>
-                <div>
-                    <div>
-                        <hr>
-                        <p>Lorem Ipsum</p>
-                        <button>Conoce más</button>
-                    </div>
-                    <div>
-                        <hr>
-                        <p>Lorem Ipsum</p>
-                        <p>
-                            Lorem Ipsum is simply dummy text
-                            of the printing and typesetting 
-                            industry.
-                        </p>
-                        <button>Conoce más</button>
+                <div class="fContainerThree width">
+                    <h3>Sobre nosotros:</h3>
+                    <hr style="width: 66px; border: 1px solid #40DB9D; margin: 10px 0 15px 0;">
+                    <div class="optionsF">
+                        <p>Quienes somos</p>
+                        <p>Contacto</p>
                     </div>
                 </div>
-            </section>
-            <section>
-                <p>Recibe información actualizada de tu interés.</p>
-                <button>Suscríbete a nuestro Newsletter</button>
-            </section>
-        </main>
-        <footer></footer>
-    </div>
+                <div class="fContainerFour width">
+                    <h3>Oficinas en:</h3>
+                    <hr style="width: 66px; border: 1px solid #40DB9D; margin: 10px 0 15px 0;">
+                    <ul class="optionsF">
+                        <li>Colombia</li>
+                        <li>Perú</li>
+                        <li>Brasil</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="firm">
+            <hr class="footerhr">
+            <p>2022- DISEÑO Y DESARROLLO POR TRES PI MEDIOS</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
